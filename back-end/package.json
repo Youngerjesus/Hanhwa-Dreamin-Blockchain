@@ -1,0 +1,18 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "annotation": "^0.1.0",
+    "axios": "^0.21.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1",
+    "heroku": "^7.47.6",
+    "path": "^0.12.7"
+  },
+  "author": "Jeongmin Yeo"
+}
