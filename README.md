@@ -44,12 +44,25 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Docker 
 
-### `Docker Build`
+### Front-end
+> $ cd front-end
+#### `Docker Build`
  
-> docker build -t dreamin:v0.0.1 .
+> docker build -t dreamin-frontend:v0.0.1 .
+ 
+#### `Docker Run`
 
-*** 
-### `Docker Run`
+> docker run -it -p 3000:3000 dreamin-frontend:v0.0.1
 
-> docker run -it -p 8080:8080 dreamin:v0.0.1
+***
+### Back-end
+> $ cd back-end
+
+#### `Docker Build`
+
+> docker build -t dreamin-backend:v0.0.1 .
+
+#### `Docker Run`
+
+> docker run -it -p 8080:8080 dreamin-backend:v0.0.1
 
