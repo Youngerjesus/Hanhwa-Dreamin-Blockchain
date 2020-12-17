@@ -1,4 +1,4 @@
-# Hanhwa-Dreamin-Blockchain Front-end
+# Hanhwa-Dreamin-Blockchain 
 
 ***
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
