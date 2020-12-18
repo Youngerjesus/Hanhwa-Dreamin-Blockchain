@@ -4,6 +4,8 @@ import btn from "./assets/button.png";
 import email from "./assets/email.png";
 import password from "./assets/password.png";
 
+import LineLogin from './assets/btn_login_base.png';
+
 import styled from "styled-components";
 
 class Login extends React.Component {
@@ -62,6 +64,15 @@ class Login extends React.Component {
                     });*/
     };
 
+    lineLogin = () => {
+        window.location.href = 'https://access.line.me/oauth2/v2.1/authorize?' +
+            'response_type=code&' +
+            'client_id=1655387804&' +
+            'redirect_uri=http://localhost:3000/auth/callback&' +
+            'state=12345abcde&' +
+            'scope=profile%20openid';
+    }
+
     render() {
         return (
             <div className="login">
@@ -84,7 +95,7 @@ class Login extends React.Component {
                         />
                     </div>
                     <div>
-                        <Button type="submit"/>
+                        <Button type="submit" onClick={this.lineLogin} />
                     </div>
                 </form>
             </div>
@@ -106,6 +117,8 @@ const Bg = styled.div`
     top: 0;
     margin: 0;
 `
+
+
 const InputEmail = styled.input`
     position: absolute;
     background-image: url(${email});
@@ -115,6 +128,7 @@ const InputEmail = styled.input`
     height: 16vw;
     top: 80vw;
     left: 10vw;
+    border:none;
 `
 const InputPass = styled.input`
     position: absolute;
@@ -125,6 +139,7 @@ const InputPass = styled.input`
     height: 16vw;
     top: 100vw;
     left: 10vw;
+    border:none;
 `
 
 const Button = styled.button`
@@ -156,5 +171,7 @@ const CreateAccount = styled.p`
     margin-left: -50vw;
     bottom: 5vw;
 `
+
+
 export default Login;
           

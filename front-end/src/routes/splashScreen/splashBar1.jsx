@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import graphic from "./assets/graphic-onboarding2.png";
+import graphic from "./assets/graphic-onboarding1.png";
 import green from "./assets/nav-dot-curr.png";
 import gray from "./assets/nav-dot.png";
 import {NavLink} from "react-router-dom";
-import Skip from "../components/Skip";
+import Skip from "../../components/Skip";
 
-class SplashBar2 extends React.Component {
+class SplashBar1 extends React.Component {
 
     constructor(props) {
         super(props);
@@ -15,12 +15,12 @@ class SplashBar2 extends React.Component {
 
     render() {
         return (
-            <NavLink to={"/splash3"}>
+            <NavLink to={"/splash2"}>
                 <div className="page">
                     <Vector/>
-                    <Text1>제로웨이스트 행사를 직접 개최하고,<br/>참여해보세요. 본인만의 제로웨이스트 팁들을<br/>함께 공유해주세요!</Text1>
+                    <Text1>검증된 제로웨이스트샵에서<br/>믿을 수 있는 제품들을 구입해보세요</Text1>
                     <Navdots>
-                        <GrayDot/><GreenDot/><GrayDot/>
+                        <GreenDot/><GrayDot/><GrayDot/>
                     </Navdots>
                     <Skip />
                 </div>
@@ -28,6 +28,7 @@ class SplashBar2 extends React.Component {
         );
     }
 }
+
 const Text1 = styled.p`
     position: absolute;
     text-align: center;
@@ -87,9 +88,10 @@ const GrayDot = styled.div`
     height: 4vw;
 `
 
-SplashBar2.propTypes = {}
+SplashBar1.propTypes = {}
 
-SplashBar2.defaultProps = {}
+SplashBar1.defaultProps = {}
 
 
-export default SplashBar2;
+export default SplashBar1;
+          
