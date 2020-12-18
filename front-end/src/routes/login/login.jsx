@@ -68,7 +68,7 @@ class Login extends React.Component {
         window.location.href = 'https://access.line.me/oauth2/v2.1/authorize?' +
             'response_type=code&' +
             'client_id=1655387804&' +
-            'redirect_uri=http://localhost:3000/main&' +
+            'redirect_uri=http://18.214.194.190/main&' +
             'state=12348abcde&' +
             'scope=profile%20openid';
     }
