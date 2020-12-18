@@ -3,6 +3,8 @@ import styled from "styled-components";
 import graphic from "./assets/graphic-onboarding1.png";
 import green from "./assets/nav-dot-curr.png";
 import gray from "./assets/nav-dot.png";
+import {NavLink} from "react-router-dom";
+import Skip from "../components/Skip";
 
 class SplashBar1 extends React.Component {
 
@@ -13,15 +15,16 @@ class SplashBar1 extends React.Component {
 
     render() {
         return (
-            <div className="page">
-
-                <Vector/>
-                <Text1>검증된 제로웨이스트샵에서<br/>믿을 수 있는 제품들을 구입해보세요</Text1>
-                <Navdots>
-                    <GreenDot/><GrayDot/><GrayDot/>
-                </Navdots>
-                <Skip>SKIP</Skip>
-            </div>
+            <NavLink to={"/splash2"}>
+                <div className="page">
+                    <Vector/>
+                    <Text1>검증된 제로웨이스트샵에서<br/>믿을 수 있는 제품들을 구입해보세요</Text1>
+                    <Navdots>
+                        <GreenDot/><GrayDot/><GrayDot/>
+                    </Navdots>
+                    <Skip />
+                </div>
+            </NavLink>
         );
     }
 }
@@ -53,25 +56,6 @@ const Vector = styled.div`
     height: 80vw;
     left: 10vw;
     top: 30vw;
-`
-const Skip = styled.p`
-    position: absolute;
-    cursor: default;
-    text-align: center;
-    line-height: 30.00px;
-    letter-spacing: 0.00px;
-    color: rgba(58, 202, 207, 1);
-    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
-    font-size: 14.00px;
-    font-weight: 700;
-    font-style: normal;
-    font-family: 'Acumin Pro SemiCondensed', Arial;
-    text-decoration: none;
-    width: 10vw;
-    height: 5vw;
-    left: 50vw;
-    margin-left: -5vw;
-    top: 170vw;
 `
 
 const Navdots = styled.div`
