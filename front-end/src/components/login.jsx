@@ -2,9 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import axios from 'axios';
 
-class Test extends React.Component<any, any>{
+class login extends React.Component{
 
-    constructor(props:any) {
+    constructor(props) {
         super(props);
     }
 
@@ -27,9 +27,4 @@ class Test extends React.Component<any, any>{
     }
 }
 
-export default Test
-
-const LineImage = styled.img`
-    display:flex;
-    cursor:pointer; 
-`;
+export default login

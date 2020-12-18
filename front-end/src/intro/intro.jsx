@@ -1,6 +1,6 @@
 import React from "react";
 import MediaQuery from "react-responsive";
-import styled from "styled-components";
+import s from "styled-components";
 import x3 from "./assets/x3.png";
 import x2 from "./assets/x2.png";
 import x4 from "./assets/x4.png";

@@ -2,7 +2,6 @@ import React from "react";
 import { Switch, Route, Router } from 'react-router-dom'
 import { createBrowserHistory } from 'history';
 
-
 import Intro from "./intro/intro";
 import SplashBar1 from "./splashScreen/splashBar1";
 import SplashBar2 from "./splashScreen/splashBar2";
