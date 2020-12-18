@@ -15,10 +15,10 @@ export default class App extends React.Component {
             <Router history={history}>
                 <Switch>
                     <Route exact path="/" component={Intro} />
-                    <Route exact path="/splash1" component={SplashBar1} />
-                    <Route exact path="/splash2" component={SplashBar2} />
-                    <Route exact path="/splash3" component={SplashBar3} />
-                    <Route exact path="/login" component={Login} />
+                    <Route path="/splash1" component={SplashBar1} />
+                    <Route path="/splash2" component={SplashBar2} />
+                    <Route path="/splash3" component={SplashBar3} />
+                    <Route path="/login" component={Login} />
                 </Switch>
             </Router>
         );

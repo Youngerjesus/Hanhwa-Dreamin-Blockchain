@@ -1,6 +1,6 @@
 import React from "react";
 import MediaQuery from "react-responsive";
-import s from "styled-components";
+import styled from "styled-components";
 import x3 from "./assets/x3.png";
 import x2 from "./assets/x2.png";
 import x4 from "./assets/x4.png";
@@ -13,16 +13,25 @@ class Intro extends React.Component {
     }
 
     render() {
-        return (
-            <div className="page">
-                <MediaQuery maxWidth={767}>
-                    <Background/>
+        const IS_MOBILE = window.innerWidth <= 414;
+
+        if(IS_MOBILE){
+            return (
+                <IntroContainer>
                     <Vector/>
                     <Text>“일상생활에서 제로웨이스트를 실천해보세요”</Text>
                     <Logo/>
-                </MediaQuery>
-            </div>
-        );
+                </IntroContainer>
+            )
+        }else {
+            return(
+                <IntroContainer>
+                    <Vector/>
+                    <NoticeText>“모바일 환경에서만 지원합니다!”</NoticeText>
+                </IntroContainer>
+            )
+        }
+
     }
 }
 
@@ -30,6 +39,13 @@ Intro.propTypes = {}
 
 Intro.defaultProps = {}
 
+const IntroContainer = styled.div`
+    display:flex;
+    flex-direction:column; 
+    background-image: url(${x3});
+    width:100%;
+    height: 100vh;
+`;
 
 const Background = styled.div`
     position: absolute;
@@ -73,6 +89,21 @@ const Text = styled.p`
     left: 50vw;
     top: 115vw;
 `
+
+const NoticeText = styled.div`
+    box-sizing: content-box;
+    opacity: 0.7438330054283142;
+    margin:auto;
+    text-align: left;
+    color: rgba(92, 74, 96, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-style: italic;
+    font-family: Futura, Arial;
+    white-space: pre;
+    
+`;
 
 
 const Logo = styled.div`
