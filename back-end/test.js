@@ -7,29 +7,43 @@ const timestamp = Date.now();
 
 // console.log(timestamp);
 
-const generateSignature = () => {
-    const nonce = 'Bp0IqgXE';
-    const timestamp = '1581850266351';
+const generateSignature = (nonce, timestamp, methodType, requestPath, queryString, requestBody) => {
+    // const nonce = Math.random().toString(36).substr(2, 8);
+    // const timestamp = Date.now();
 
-    const methodType = 'GET'
-    const requestPath = '/v1/wallets'
+    queryString === null ?
+        queryString = '' :
+        queryString = '?' + queryString;
 
-    let queryString = '';
-    let requestBody = '';
+    requestBody === null ?
+        requestBody = '' :
+        requestBody = ObjectToQueryString(requestBody)
 
-    const serviceApiKey = '136db0ad-0fe1-456f-96a4-329be3f93036';
     const serviceApiSecretKey = '9256bf8a-2b86-42fe-b3e0-d3079d0141fe';
 
     const str = nonce + timestamp + methodType + requestPath + queryString + requestBody;
 
-    console.log('Str:' + str);
+    console.log("Str: " + str);
 
     const hmac = crypto.createHmac('sha512', serviceApiSecretKey);
     const signature = hmac.update(new Buffer(str, 'utf-8')).digest('base64');
 
-    console.log(signature);
+    console.log('Signature: ' + signature);
+
+    return signature;
 }
 
-// generateSignature();
 
-console.log(__dirname);
+function ObjectToQueryString(requestBody) {
+    const sortableKeys = Object.keys(requestBody).sort();
+
+    let str = '?';
+    for(const key of sortableKeys){
+        str = str + key + '=' + requestBody[key] + '&';
+    }
+
+    str = str.substr(0, str.length-1);
+    return str;
+}
+
+
