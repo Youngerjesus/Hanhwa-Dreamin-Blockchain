@@ -3,6 +3,7 @@ import styled from "styled-components";
 import graphic from "./assets/graphic-onboarding1.png";
 import green from "./assets/nav-dot-curr.png";
 import gray from "./assets/nav-dot.png";
+
 class SplashBar1 extends React.Component {
 
     constructor(props) {
@@ -13,6 +14,7 @@ class SplashBar1 extends React.Component {
     render() {
         return (
             <div className="page">
+
                 <Vector/>
                 <Text1>검증된 제로웨이스트샵에서<br/>믿을 수 있는 제품들을 구입해보세요</Text1>
                 <Navdots>

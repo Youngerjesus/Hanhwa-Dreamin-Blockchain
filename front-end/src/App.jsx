@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch, Route, Router } from 'react-router-dom'
+import { Switch, Route, BrowserRouter } from 'react-router-dom'
 import { createBrowserHistory } from 'history';
 
 import Intro from "./intro/intro";
@@ -12,15 +12,15 @@ const history = createBrowserHistory()
 export default class App extends React.Component {
     render() {
         return (
-            <Router history={history}>
+            <BrowserRouter>
                 <Switch>
                     <Route exact path="/" component={Intro} />
-                    <Route path="/splash1" component={SplashBar1} />
-                    <Route path="/splash2" component={SplashBar2} />
-                    <Route path="/splash3" component={SplashBar3} />
+                    <Route exact path="/splash1" component={SplashBar1} />
+                    <Route exact path="/splash2" component={SplashBar2} />
+                    <Route exact path="/splash3" component={SplashBar3} />
                     <Route path="/login" component={Login} />
                 </Switch>
-            </Router>
+            </BrowserRouter>
         );
     }
 }

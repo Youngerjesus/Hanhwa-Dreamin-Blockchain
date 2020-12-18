@@ -4,6 +4,7 @@ import styled from "styled-components";
 import x3 from "./assets/x3.png";
 import x2 from "./assets/x2.png";
 import x4 from "./assets/x4.png";
+import {NavLink} from "react-router-dom";
 
 class Intro extends React.Component {
 
@@ -12,16 +13,19 @@ class Intro extends React.Component {
         this.state = {};
     }
 
+
     render() {
         const IS_MOBILE = window.innerWidth <= 414;
 
         if(IS_MOBILE){
             return (
-                <IntroContainer>
-                    <Vector/>
-                    <Text>“일상생활에서 제로웨이스트를 실천해보세요”</Text>
-                    <Logo/>
-                </IntroContainer>
+                <NavLink to="/splash1">
+                    <IntroContainer>
+                        <Vector/>
+                        <Text>“일상생활에서 제로웨이스트를 실천해보세요”</Text>
+                        <Logo/>
+                    </IntroContainer>
+                </NavLink>
             )
         }else {
             return(
