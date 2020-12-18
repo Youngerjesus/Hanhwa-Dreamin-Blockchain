@@ -78,22 +78,6 @@ class Login extends React.Component {
             <div className="login">
                 <form onSubmit={this.handleSubmit}>
                     <Bg/>
-                    <CreateAccount onClick={() => this.props.history.push("/signup")}>Create Account</CreateAccount>
-                    <div>
-                        <InputEmail
-                            placeholder="Email"
-                            value={this.state.email}
-                            onChange={this.handleEmail}
-                        />
-                    </div>
-                    <div>
-                        <InputPass
-                            placeholder="Password"
-                            value={this.state.password}
-                            onChange={this.handlePW}
-                            type="password"
-                        />
-                    </div>
                     <div>
                         <Button type="submit" onClick={this.lineLogin} />
                     </div>

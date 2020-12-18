@@ -17,7 +17,7 @@ class afterTran extends React.Component {
                 <Container>
                     <Pic/>
                     <TextBox>
-                        <HighlightText>
+                        <HighlightText spellcheck={false}>
                             500 ECO
                         </HighlightText>
                         <DefaultText2>
@@ -31,7 +31,7 @@ class afterTran extends React.Component {
                         대나무 칫솔 사용으로 온실가스 배출량
                     </DescriptionText>
                     <DescriptionText>
-                        52g을 감축할 수 있습니다.✌️❤️‍
+                        52g을 감축할 수 있습니다.
                     </DescriptionText>
                 </Container>
             </NavLink>
@@ -100,6 +100,8 @@ const HighlightText = styled.div`
     font-family:Acumin Pro SemiCondensed;
     justify-content: center;
     margin-right:5px;
+    font-weight:bold;
+    text-decoration:none !important;
 `;
 
 const DefaultText = styled.div`

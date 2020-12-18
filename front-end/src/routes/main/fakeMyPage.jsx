@@ -46,7 +46,7 @@ const Header = styled.div`
     display:flex;
     flex-direction:column; 
     align-items: center;
-    position: fixed;
+    position: absolute;
     background-image: url(${header});
     background-position: center;
     background-repeat: no-repeat;
@@ -54,18 +54,18 @@ const Header = styled.div`
     left:0;
     margin: 0;
     width: 375px;
-    height: 200px;
+    height: 160px;
 `
 
 const TextStyle = styled.p`
     font-size: 20px;
     font-family: 'Acumin Pro SemiCondensed', Arial;
     margin-bottom: 0;
-    margin-top: 50px;
+    margin-top: 30px;
     color: rgb(116, 138, 157);
 `
 const MyPage = styled.div`
-    margin-top: 83px;
+    margin-top: 63px;
     margin-left: -10px;
     margin-bottom: 0px;
     width: 303.5px;

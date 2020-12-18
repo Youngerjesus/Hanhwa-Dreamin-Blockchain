@@ -39,8 +39,14 @@ class pDetailed extends React.Component{
                 <F1/>
                 <F2/>
             </Feature2>
-            <T3/>
-            <T4>
+                <InfoText>
+                    블록체인에 원재료와 친환경제품인증이 기록된 제품입니다.
+                </InfoText>
+                <InfoText>
+                    허위 제품일시 금전적 보상이 제공됩니다.
+                </InfoText>
+
+                <T4>
                 <Ta href = "https://explorer.blockchain.line.me/cashew/address/tlink1a8gqm3avaytsanwka07362y2h28l6fxtssgevt?tab=transaction#" target = "_blank">
                 <b><i>https://explorer.blockchain.line.me/cashew/address/tlink1a8gqm3avaytsanwka07362y2h28l6fxtssgevt?tab=transaction#</i></b>
                 <br/>
@@ -244,5 +250,13 @@ const Btn = styled.div
     position: fixed;
     bottom: 8px;
 `
+
+const InfoText = styled.div`
+    color:#1A4D81;
+    display:flex;
+    font-family:Helvetica Neue;
+    font-size: 12px;
+    justify-content: center;
+`;
 
 export default pDetailed;

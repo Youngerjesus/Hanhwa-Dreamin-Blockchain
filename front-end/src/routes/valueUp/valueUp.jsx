@@ -19,7 +19,6 @@ const Container = styled.div`
     display:flex;
     background-image: url(${fruits});
     height: 100vh;
-    margin-left: -50px;
     background-size:cover;
 `
 

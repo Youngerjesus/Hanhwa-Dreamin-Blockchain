@@ -45,8 +45,9 @@ const Container = styled.div`
 
 const NFTImage = styled.img`
     display:flex;  
-    width: 90%;
+    width: 80%;
     margin: auto;
+    margin-top: 30px;
     margin-bottom: 0;
     background-size: cover;
 `;

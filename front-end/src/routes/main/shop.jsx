@@ -56,10 +56,10 @@ const Header = styled.div`
     left:0;
     margin: 0;
     width: 375px;
-    height: 200px;
+    height: 150px;
 `
 const TabbedNav = styled.div`
-    margin-top:41px;
+    margin-top: 25px;
     background-image: url(${tabbednav});
     background-position: center;
     background-repeat: no-repeat;
@@ -70,11 +70,11 @@ const TextStyle = styled.p`
     font-size: 20px;
     font-family: 'Acumin Pro SemiCondensed', Arial;
     margin-bottom: 0;
-    margin-top: 50px;
+    margin-top: 25px;
     color: rgb(116, 138, 157);
 `
 const Products = styled.div`
-    margin-top: 213px;
+    margin-top: 180px;
     width: 345px;
     height: 440px;
     border-radius: 10px;
