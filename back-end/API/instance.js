@@ -1,8 +1,9 @@
 import axios from 'axios';
+import {API_KEY} from "./LINE_API_CONSTANT.js";
 
 const apiInstance = axios.create({
     headers:{
-        'service-api-key': '66d022c8-154d-43ff-8f54-8bb3ca5728c0',
+        'service-api-key': API_KEY,
         'Content-Type': 'application/json'
     }
 });

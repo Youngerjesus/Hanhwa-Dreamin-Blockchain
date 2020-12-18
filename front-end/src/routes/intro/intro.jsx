@@ -48,6 +48,7 @@ const IntroContainer = styled.div`
     flex-direction:column; 
     background-image: url(${x3});
     width:100%;
+    background-size: cover;
     height: 100vh;
 `;
 

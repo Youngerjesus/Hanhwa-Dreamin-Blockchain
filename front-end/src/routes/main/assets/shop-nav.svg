@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="286" height="52" viewBox="0 0 286 52">
+  <g id="shop-nav" transform="translate(1)">
+    <text id="곡물" transform="translate(269 32)" fill="#a6bcd0" font-size="16" font-family="MalgunGothic, Malgun Gothic" letter-spacing="-0.01em"><tspan x="-15.92" y="0">곡물</tspan></text>
+    <text id="과일" transform="translate(185 32)" fill="#a6bcd0" font-size="16" font-family="MalgunGothic, Malgun Gothic" letter-spacing="-0.01em"><tspan x="-15.92" y="0">과일</tspan></text>
+    <rect id="active-tab" width="109" height="52" rx="26" transform="translate(41)" fill="#548d7c"/>
+    <text id="생활용품" transform="translate(95 32)" fill="#fff" font-size="16" font-family="MalgunGothic, Malgun Gothic" letter-spacing="-0.01em"><tspan x="-31.76" y="0">생활용품</tspan></text>
+    <text id="All" transform="translate(8 32)" fill="#a6bcd0" font-size="16" font-family="AcuminProSemiCond-Medium, Acumin Pro SemiCondensed" font-weight="500" letter-spacing="-0.01em"><tspan x="-8.448" y="0">All</tspan></text>
+  </g>
+</svg>

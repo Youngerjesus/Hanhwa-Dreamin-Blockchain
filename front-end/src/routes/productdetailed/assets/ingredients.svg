@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="158" height="213" viewBox="0 0 158 213">
+  <g id="ingredients" transform="translate(-30 -369)">
+    <text id="BPA_Free_플라스틱_프리_생분해가능제품" data-name="BPA Free
+플라스틱 프리 
+생분해가능제품" transform="translate(71 420)" fill="#548d7c" font-size="16" font-family="SegoeUI, Segoe UI" letter-spacing="-0.01em"><tspan x="0" y="17">BPA Free</tspan><tspan font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="53">플라스틱</tspan><tspan y="53" font-family="SegoeUI, Segoe UI"> </tspan><tspan y="53">프리</tspan><tspan y="53" font-family="SegoeUI, Segoe UI"> </tspan><tspan x="0" y="89">생분해가능제품</tspan></tspan></text>
+    <text id="Features" transform="translate(30 391)" fill="#548d7c" font-size="20" font-family="SegoeUI, Segoe UI" letter-spacing="-0.01em"><tspan x="0" y="0">Features</tspan></text>
+    <path id="패스_648" data-name="패스 648" d="M1440.355,4365.126l2.325,2.325,4.89-4.89" transform="translate(-1400 -3937.519)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="패스_788" data-name="패스 788" d="M1440.355,4365.126l2.325,2.325,4.89-4.89" transform="translate(-1400 -3901.519)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="패스_789" data-name="패스 789" d="M1440.355,4365.126l2.325,2.325,4.89-4.89" transform="translate(-1400 -3865.519)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <g id="checkbox" transform="translate(32 415)">
+      <rect id="rectangle" width="24" height="24" rx="12" fill="#548d7c"/>
+      <path id="path" d="M1440.355,4365.126l2.325,2.325,4.89-4.89" transform="translate(-1432 -4352.519)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+    <g id="checkbox-2" data-name="checkbox" transform="translate(32 451)">
+      <rect id="rectangle-2" data-name="rectangle" width="24" height="24" rx="12" fill="#548d7c"/>
+      <path id="path-2" data-name="path" d="M1440.355,4365.126l2.325,2.325,4.89-4.89" transform="translate(-1432 -4352.519)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+    <g id="checkbox-3" data-name="checkbox" transform="translate(32 487)">
+      <rect id="rectangle-3" data-name="rectangle" width="24" height="24" rx="12" fill="#548d7c"/>
+      <path id="path-3" data-name="path" d="M1440.355,4365.126l2.325,2.325,4.89-4.89" transform="translate(-1432 -4352.519)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

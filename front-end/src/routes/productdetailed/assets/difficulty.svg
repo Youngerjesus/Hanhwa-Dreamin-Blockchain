@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128.5" height="94.3" viewBox="0 0 128.5 94.3">
+  <g id="difficulty" transform="translate(-210.5 -415)">
+    <text id="패키지_:_종이" data-name="패키지 : 종이" transform="translate(247 432)" fill="#548d7c" font-size="16" font-family="MalgunGothic, Malgun Gothic" letter-spacing="-0.01em"><tspan x="0" y="0">패키지</tspan><tspan y="0" xml:space="preserve" font-family="SegoeUI, Segoe UI"> : </tspan><tspan y="0">종이</tspan></text>
+    <text id="대_:_대나무" data-name="대 : 대나무" transform="translate(247 468)" fill="#548d7c" font-size="16" font-family="MalgunGothic, Malgun Gothic" letter-spacing="-0.01em"><tspan x="0" y="0">대</tspan><tspan y="0" xml:space="preserve" font-family="SegoeUI, Segoe UI"> : </tspan><tspan y="0">대나무</tspan></text>
+    <text id="모_:_나일론_" data-name="모 : 나일론 " transform="translate(247 504)" fill="#548d7c" font-size="16" font-family="MalgunGothic, Malgun Gothic" letter-spacing="-0.01em"><tspan x="0" y="0">모</tspan><tspan y="0" xml:space="preserve" font-family="SegoeUI, Segoe UI"> : </tspan><tspan y="0">나일론</tspan><tspan y="0" font-family="SegoeUI, Segoe UI"> </tspan></text>
+    <g id="icon-difficulty" transform="translate(217 454)">
+      <line id="line" y2="8" transform="translate(0 8)" fill="none" stroke="#748a9d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line id="line-2" data-name="line" y2="12" transform="translate(7 4)" fill="none" stroke="#748a9d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line id="line-3" data-name="line" y2="16" transform="translate(14)" fill="none" stroke="#748a9d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+    <g id="icon-cook" transform="translate(217 490)">
+      <path id="path" d="M512.46,761.238a6.694,6.694,0,0,1-13.388,0c0-3.7,3-12.107,6.694-12.107S512.46,757.541,512.46,761.238Z" transform="translate(-499.072 -749.131)" fill="none" stroke="#748a9d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="path-2" data-name="path" d="M509.37,764.275a3.6,3.6,0,0,1-7.208,0c0-1.99,1.614-6.518,3.6-6.518S509.37,762.285,509.37,764.275Z" transform="translate(-499.072 -749.131)" fill="none" stroke="#748a9d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+    <g id="icon-recipes" transform="translate(211 422)">
+      <rect id="path-3" data-name="path" width="12.697" height="17.506" rx="0.872" transform="translate(4.813)" fill="none" stroke="#748a9d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="path-4" data-name="path" d="M.872,0H2.415a0,0,0,0,1,0,0V11.987a0,0,0,0,1,0,0H.872A.872.872,0,0,1,0,11.115V.872A.872.872,0,0,1,.872,0Z" transform="translate(2.399 2.76)" fill="none" stroke="#748a9d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="path-5" data-name="path" d="M.872,0H2.4a0,0,0,0,1,0,0V7.33a0,0,0,0,1,0,0H.872A.872.872,0,0,1,0,6.458V.872A.872.872,0,0,1,.872,0Z" transform="translate(0 5.088)" fill="none" stroke="#748a9d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="path-6" data-name="path" d="M.872,0H2.415a0,0,0,0,1,0,0V11.987a0,0,0,0,1,0,0H.872A.872.872,0,0,1,0,11.115V.872A.872.872,0,0,1,.872,0Z" transform="translate(19.925 14.747) rotate(180)" fill="none" stroke="#748a9d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="path-7" data-name="path" d="M.872,0H2.4a0,0,0,0,1,0,0V7.33a0,0,0,0,1,0,0H.872A.872.872,0,0,1,0,6.458V.872A.872.872,0,0,1,.872,0Z" transform="translate(22.324 12.418) rotate(180)" fill="none" stroke="#748a9d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="path-8" data-name="path" d="M191.515,768.267l-2.266,1.191.433-2.523-1.833-1.787,2.533-.368,1.133-2.3,1.133,2.3,2.533.368-1.833,1.787.433,2.523Z" transform="translate(-180.353 -757.398)" fill="none" stroke="#748a9d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

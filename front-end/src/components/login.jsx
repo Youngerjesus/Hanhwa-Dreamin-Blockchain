@@ -17,7 +17,6 @@ class login extends React.Component{
             'scope=profile%20openid';
     }
 
-
     render() {
         return (
             <div onClick={this.loginAPITest}>

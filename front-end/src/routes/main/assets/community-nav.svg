@@ -1,0 +1,7 @@
+<svg id="community-nav" xmlns="http://www.w3.org/2000/svg" width="286" height="52" viewBox="0 0 286 52">
+  <text id="기타" transform="translate(270 31)" fill="#a6bcd0" font-size="16" font-family="MalgunGothic, Malgun Gothic" letter-spacing="-0.01em"><tspan x="-15.92" y="0">기타</tspan></text>
+  <text id="SNS" transform="translate(187 31)" fill="#a6bcd0" font-size="16" font-family="AcuminProSemiCond-Medium, Acumin Pro SemiCondensed" font-weight="500" letter-spacing="-0.01em"><tspan x="-14.136" y="0">SNS</tspan></text>
+  <rect id="사각형_1843" data-name="사각형 1843" width="94" height="52" rx="26" transform="translate(49)" fill="#1b9d81"/>
+  <text id="행사" transform="translate(96 31)" fill="#fff" font-size="16" font-family="MalgunGothic, Malgun Gothic" letter-spacing="-0.01em"><tspan x="-15.92" y="0">행사</tspan></text>
+  <text id="All" transform="translate(9 31)" fill="#a6bcd0" font-size="16" font-family="AcuminProSemiCond-Medium, Acumin Pro SemiCondensed" font-weight="500" letter-spacing="-0.01em"><tspan x="-8.448" y="0">All</tspan></text>
+</svg>

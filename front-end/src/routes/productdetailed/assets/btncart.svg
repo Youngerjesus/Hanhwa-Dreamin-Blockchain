@@ -1,0 +1,26 @@
+<svg id="button-cart" xmlns="http://www.w3.org/2000/svg" width="315" height="60" viewBox="0 0 315 60">
+  <rect id="rectangle" width="315" height="60" rx="30" fill="#548d7c"/>
+  <g id="text-cart" transform="translate(-1508 -655)">
+    <text id="Add_PRoducts_to_Cart" data-name="Add  PRoducts to Cart" transform="translate(1592 690)" fill="#f7f7f7" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.01em"><tspan x="0" y="0" xml:space="preserve">ADD  PRODUCTS TO CART</tspan></text>
+    <g id="icon-add-cart" transform="translate(1555 672)">
+      <circle id="ellipse" cx="2.269" cy="2.269" r="2.269" transform="translate(15.902 21.211)" fill="#548d7c" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="path" d="M242.949,775.23h11.792a2.312,2.312,0,0,0,2.331-2.16,2.269,2.269,0,0,0-2.267-2.378H241.346a3.975,3.975,0,0,1-3.676-2.462l-2.641-6.421a2.356,2.356,0,0,1,2.179-3.253h15.206" transform="translate(-234.849 -754.019)" fill="#548d7c" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="path-2" data-name="path" d="M243.341,775.23a3.975,3.975,0,0,1-3.676-2.463h0" transform="translate(-234.849 -754.019)" fill="#548d7c" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="path-3" data-name="path" d="M252.414,758.556a2.269,2.269,0,0,0,2.269-2.269" transform="translate(-234.849 -754.019)" fill="#548d7c" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <circle id="ellipse-2" data-name="ellipse" cx="2.269" cy="2.269" r="2.269" transform="translate(6.703 21.211)" fill="#548d7c" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line id="line" x2="2.641" y2="6.421" transform="translate(3.53 7.398)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line id="line-2" data-name="line" x2="2.641" y2="6.421" transform="translate(7.1 7.398)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line id="line-3" data-name="line" x2="2.641" y2="6.421" transform="translate(10.671 7.398)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line id="line-4" data-name="line" x2="2.641" y2="6.421" transform="translate(14.241 7.398)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line id="line-5" data-name="line" x2="5.556" y2="13.505" transform="translate(16.5 4.537)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line id="line-6" data-name="line" x2="10.515" transform="translate(4.851 10.608)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="path-4" data-name="path" d="M259.521,754.88a1.392,1.392,0,0,0-1.287-.861h-1.282a2.268,2.268,0,0,0-2.269,2.268h3.9a1.019,1.019,0,0,0,.943-1.407Z" transform="translate(-234.849 -754.019)" fill="#548d7c" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <g id="ellipse-3" data-name="ellipse" transform="translate(13 8)" fill="#548d7c" stroke="#7bed8d" stroke-width="1">
+        <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+        <circle cx="7.5" cy="7.5" r="7" fill="none"/>
+      </g>
+      <line id="line-7" data-name="line" y2="6" transform="translate(20.5 12.5)" fill="none" stroke="#7bed8d" stroke-linecap="round" stroke-width="1"/>
+      <line id="line-8" data-name="line" y2="6" transform="translate(23.5 15.5) rotate(90)" fill="none" stroke="#7bed8d" stroke-linecap="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
