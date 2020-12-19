@@ -20,6 +20,7 @@ const Container = styled.div`
     background-image: url(${fruits});
     height: 100vh;
     background-size:cover;
+    width: 375px;
 `
 
 

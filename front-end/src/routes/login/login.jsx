@@ -144,12 +144,12 @@ const Button = styled.button`
     width: 84vw;
     height: 16vw;
     border: 0;
-    top:50%;
+    top:60%;
     background-color: rgb(255,0,0,0);
     bottom: 35vw;
     background-size: cover;
-    height: 90px;
-    width: 85vw;
+    width: 250px;
+    height: 70px;
     display: flex;
     margin: auto;
 `
