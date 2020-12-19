@@ -5,7 +5,7 @@ import email from "./assets/email.png";
 import password from "./assets/password.png";
 
 import LineLoginImage from './assets/btn_base.png';
-
+import LineLoginButtonImage from './assets/btn_login_base.png'
 import styled from "styled-components";
 
 class Login extends React.Component {
@@ -77,11 +77,9 @@ class Login extends React.Component {
         return (
             <div className="login">
                 <form onSubmit={this.handleSubmit}>
-                    <div>
-                        <LingLogin />
-
+                    <Container>
                         <Button type="submit" onClick={this.lineLogin} />
-                    </div>
+                    </Container>
                 </form>
             </div>
 
@@ -93,6 +91,11 @@ Login.propTypes = {}
 
 Login.defaultProps = {}
 
+const Container = styled.div`
+    display:flex;
+    width:100%;
+    height:667px;
+`;
 const Bg = styled.div`
     position: absolute;
     background-image: url(${bg});
@@ -137,16 +140,18 @@ const InputPass = styled.input`
 `
 
 const Button = styled.button`
-    position: absolute;
-    background-image: url(${btn});
+    background-image: url(${LineLoginButtonImage});
     width: 84vw;
     height: 16vw;
-    left: 50vw;
     border: 0;
-    top:55%;
+    top:50%;
     background-color: rgb(255,0,0,0);
-    margin-left: -42vw;
     bottom: 35vw;
+    background-size: cover;
+    height: 90px;
+    width: 85vw;
+    display: flex;
+    margin: auto;
 `
 const CreateAccount = styled.p`
     position: absolute;
