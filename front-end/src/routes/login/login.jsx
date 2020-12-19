@@ -149,7 +149,7 @@ const Button = styled.button`
     bottom: 35vw;
     background-size: cover;
     width: 250px;
-    height: 70px;
+    height: 72px;
     display: flex;
     margin: auto;
 `

@@ -30,9 +30,9 @@ class afterTran extends React.Component {
                     <DescriptionText>
                         대나무 칫솔 사용으로 온실가스 배출량
                     </DescriptionText>
-                    <DescriptionText>
+                    <DescriptionText2>
                         52g을 감축할 수 있습니다.
-                    </DescriptionText>
+                    </DescriptionText2>
                 </Container>
             </NavLink>
         )
@@ -86,6 +86,16 @@ const DescriptionText =styled.div`
     display:flex;
     justify-content: center;
 `
+
+const DescriptionText2 =styled.div`
+    font-family:Acumin Pro SemiCondensed;
+    font-size:20px;
+    color:#748A9D;
+    display:flex;
+    justify-content: center;
+    margin-top:5px;
+`
+
 
 const TextBox = styled.div`
     display: flex;
