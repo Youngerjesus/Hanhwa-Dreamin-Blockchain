@@ -42,7 +42,7 @@ const Text1 = styled.p`
     height: 30vw;
     left: 50vw;
     margin-left: -50vw;
-    top: 120vw;
+    top: 100vw;
 `
 const Vector = styled.div`
     position: absolute;
@@ -54,7 +54,7 @@ const Vector = styled.div`
     width: 80vw;
     height: 80vw;
     left: 10vw;
-    top: 30vw;
+    top: 10vw;
 `
 
 const Navdots = styled.div`
@@ -63,7 +63,7 @@ const Navdots = styled.div`
     width: 20vw;
     height: 4vw;
     left: 50vw;
-    top: 155vw;
+    top: 135vw;
     margin-left: -10vw;
 `
 const GreenDot = styled.div`

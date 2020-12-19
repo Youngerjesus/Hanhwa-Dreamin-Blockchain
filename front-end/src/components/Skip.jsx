@@ -31,6 +31,6 @@ const SkipStyle = styled.p`
     height: 5vw;
     left: 50vw;
     margin-left: -5vw;
-    top: 170vw;
+    top: 150vw;
 `
 
