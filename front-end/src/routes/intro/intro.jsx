@@ -92,7 +92,7 @@ const Text = styled.p`
     height: 20vw;
     margin-left: -40vw;
     left: 50vw;
-    top: 50vw;
+    top: 65vw;
 `
 
 const NoticeText = styled.div`

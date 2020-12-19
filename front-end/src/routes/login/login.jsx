@@ -108,7 +108,7 @@ const LingLogin = styled.div`
     width:88px;
     display:flex;
     margin:auto;
-    margin-top: 50px;
+    margin-top: 100px;
     height:88px;
 `;
 
@@ -143,6 +143,7 @@ const Button = styled.button`
     height: 16vw;
     left: 50vw;
     border: 0;
+    top:55%;
     background-color: rgb(255,0,0,0);
     margin-left: -42vw;
     bottom: 35vw;

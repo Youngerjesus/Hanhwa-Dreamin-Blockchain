@@ -40,7 +40,7 @@ const Nav = styled.div`
     justify-content: space-evenly;
     align-items: center;
     width: 375px;
-    height: 102px;
+    height: 82px;
     background-color: rgb(255,255,255,255);
 `
 

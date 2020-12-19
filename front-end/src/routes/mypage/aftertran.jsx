@@ -52,7 +52,7 @@ const Pic = styled.div
     width: 300px;
     height: 300px;
     margin-left: 40px;
-    margin-top: 60px;
+    margin-top: 50px;
 `
 
 const T1 = styled.div
@@ -90,7 +90,7 @@ const DescriptionText =styled.div`
 const TextBox = styled.div`
     display: flex;
     justify-content: center;
-    margin-top:50px;
+    margin-top:30px;
 `;
 
 const HighlightText = styled.div`
