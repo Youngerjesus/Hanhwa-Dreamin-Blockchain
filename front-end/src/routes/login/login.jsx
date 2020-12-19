@@ -4,7 +4,7 @@ import btn from "./assets/button.png";
 import email from "./assets/email.png";
 import password from "./assets/password.png";
 
-import LineLogin from './assets/btn_login_base.png';
+import LineLoginImage from './assets/btn_base.png';
 
 import styled from "styled-components";
 
@@ -77,8 +77,9 @@ class Login extends React.Component {
         return (
             <div className="login">
                 <form onSubmit={this.handleSubmit}>
-                    <Bg/>
                     <div>
+                        <LingLogin />
+
                         <Button type="submit" onClick={this.lineLogin} />
                     </div>
                 </form>
@@ -101,6 +102,15 @@ const Bg = styled.div`
     top: 0;
     margin: 0;
 `
+
+const LingLogin = styled.div`
+    background-image: url(${LineLoginImage});
+    width:88px;
+    display:flex;
+    margin:auto;
+    margin-top: 50px;
+    height:88px;
+`;
 
 
 const InputEmail = styled.input`
