@@ -52,7 +52,7 @@ const Pic = styled.div
     width: 300px;
     height: 300px;
     margin-left: 40px;
-    margin-top: 120px;
+    margin-top: 60px;
 `
 
 const T1 = styled.div

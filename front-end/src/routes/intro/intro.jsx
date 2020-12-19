@@ -124,7 +124,7 @@ const Logo = styled.div`
     width: 60vw;
     height: 60vw;
     left: 10%;
-    top: 10%;
+    top: 0%;
 `
 
 
