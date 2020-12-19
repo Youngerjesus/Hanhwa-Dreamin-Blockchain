@@ -6,7 +6,12 @@ import {
     MY_ADDRESS,
     WALLET_SECRET_KEY,
     LINE_SERVER_URL,
-    API_SECRET_KEY, ECO_TOKEN_CONTRACT_ID, MY_USER_ID
+    API_SECRET_KEY,
+    ECO_TOKEN_CONTRACT_ID,
+    MY_USER_ID,
+    MALPHITE_NFT_TOKEN_CONTRACT_ID,
+    MALPHITE_NFT_TOKEN_TYPE,
+    IVERN_NFT_TOKEN_CONTRACT_ID, IVERN_NFT_TOKEN_TYPE
 } from "./LINE_API_CONSTANT.js";
 import crypto from 'crypto';
 
@@ -150,4 +155,4 @@ function ObjectToQueryString(requestBody) {
     return str;
 }
 
-export {mintNFTToken,transferServiceToken,burnServiceToken};
+export {mintNFTToken,transferServiceToken};
